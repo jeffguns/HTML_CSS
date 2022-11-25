@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Fundo fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand - backgound 
+             ordem de sequencia = color > image > position > [size] > attachment 
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -32,6 +40,12 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, a ipsum. Mollitia voluptatem amet dolores ea beatae neque voluptatum unde qui cumque consequatur ipsum harum, voluptas, perspiciatis animi nam necessitatibus?</p>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ab corporis corrupti, voluptates, sint at nam ex vero est praesentium beatae aperiam. Exercitationem optio quas facere culpa reprehenderit. Delectus, libero.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus ratione aliquid, sunt suscipit consequuntur ea dolorem explicabo veritatis expedita, accusantium quisquam quidem omnis ex libero ullam tempore repudiandae unde?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus ratione aliquid, sunt suscipit consequuntur ea dolorem explicabo veritatis expedita, accusantium quisquam quidem omnis ex libero ullam tempore repudiandae unde?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus ratione aliquid, sunt suscipit consequuntur ea dolorem explicabo veritatis expedita, accusantium quisquam quidem omnis ex libero ullam tempore repudiandae unde?</p>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus ratione aliquid, sunt suscipit consequuntur ea dolorem explicabo veritatis expedita, accusantium quisquam quidem omnis ex libero ullam tempore repudiandae unde?</p>
     </main>
